@@ -19,7 +19,10 @@ on:
     branches:
       - master
   schedule:
-    - cron: 00 02 * * *
+    - cron: 00 00 * * *
+  workflow_dispatch:
+    inputs:
+
 jobs:
   run-it:
     runs-on: ubuntu-18.04
