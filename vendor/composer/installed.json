@@ -43,28 +43,28 @@
     },
     {
         "name": "bramus/monolog-colored-line-formatter",
-        "version": "2.0.3",
-        "version_normalized": "2.0.3.0",
+        "version": "3.0.5",
+        "version_normalized": "3.0.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/bramus/monolog-colored-line-formatter.git",
-            "reference": "6bff15eee00afe2690642535b0f1541f10852c2b"
+            "reference": "0b0df515b770056ff7ca4ab789587197113d3a5c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/bramus/monolog-colored-line-formatter/zipball/6bff15eee00afe2690642535b0f1541f10852c2b",
-            "reference": "6bff15eee00afe2690642535b0f1541f10852c2b",
+            "url": "https://api.github.com/repos/bramus/monolog-colored-line-formatter/zipball/0b0df515b770056ff7ca4ab789587197113d3a5c",
+            "reference": "0b0df515b770056ff7ca4ab789587197113d3a5c",
             "shasum": ""
         },
         "require": {
-            "bramus/ansi-php": "~3.0",
-            "php": ">=5.4.0"
+            "bramus/ansi-php": "^3.0.3",
+            "php": "^7.2|~8.0.0"
         },
         "require-dev": {
-            "monolog/monolog": "~1.0",
-            "phpunit/phpunit": "~4.0"
+            "monolog/monolog": "~2.0",
+            "phpunit/phpunit": "~7.0|^9.4"
         },
-        "time": "2015-01-07T22:12:35+00:00",
+        "time": "2020-11-28T23:44:05+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
