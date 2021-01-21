@@ -10,7 +10,7 @@
     "monolog/monolog": "1.25.3",
     "bramus/monolog-colored-line-formatter": "2.0.3",
     "phpmailer/phpmailer": "6.1.6",
-    "vlucas/phpdotenv": "3.6.0",
+    "vlucas/phpdotenv": "5.3.0",
     "predis/predis": "1.1.1",
     "ext-json": "*",
     "ext-bcmath": "*",
